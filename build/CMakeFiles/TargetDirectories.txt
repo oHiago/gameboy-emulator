@@ -1,0 +1,3 @@
+/home/hiagocavalcante/gameboy-emulator/build/CMakeFiles/emu.dir
+/home/hiagocavalcante/gameboy-emulator/build/CMakeFiles/edit_cache.dir
+/home/hiagocavalcante/gameboy-emulator/build/CMakeFiles/rebuild_cache.dir
