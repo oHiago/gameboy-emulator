@@ -4,7 +4,7 @@
 # compile CXX with /usr/lib64/ccache/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hiagocavalcante/gameboy-emulator/include
+CXX_INCLUDES = -I/home/hiagocavalcante/gameboy-emulator/src
 
 CXX_FLAGS = 
 

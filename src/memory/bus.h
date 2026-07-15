@@ -1,11 +1,11 @@
 #pragma once
-#include "types.h"
+#include "utils/types.h"
 #include <array>
 
 class Bus{
 public:
-    byte read(word);
-    void write(word,byte);
+    byte read(word endereco);
+    void write(word endereco,byte valor);
 private:
     std::array<byte, 65536>memoria;//nome temporario
 };

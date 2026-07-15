@@ -1,1 +1,1 @@
-/usr/lib64/ccache/c++ -Wl,--dependency-file=CMakeFiles/emu.dir/link.d CMakeFiles/emu.dir/main.cpp.o -o emu
+/usr/lib64/ccache/c++ -Wl,--dependency-file=CMakeFiles/emu.dir/link.d CMakeFiles/emu.dir/main.cpp.o CMakeFiles/emu.dir/src/memory/bus.cpp.o -o emu

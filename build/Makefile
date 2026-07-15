@@ -160,6 +160,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/emu.dir/build.make CMakeFiles/emu.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/memory/bus.o: src/memory/bus.cpp.o
+.PHONY : src/memory/bus.o
+
+# target to build an object file
+src/memory/bus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emu.dir/build.make CMakeFiles/emu.dir/src/memory/bus.cpp.o
+.PHONY : src/memory/bus.cpp.o
+
+src/memory/bus.i: src/memory/bus.cpp.i
+.PHONY : src/memory/bus.i
+
+# target to preprocess a source file
+src/memory/bus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emu.dir/build.make CMakeFiles/emu.dir/src/memory/bus.cpp.i
+.PHONY : src/memory/bus.cpp.i
+
+src/memory/bus.s: src/memory/bus.cpp.s
+.PHONY : src/memory/bus.s
+
+# target to generate assembly for a file
+src/memory/bus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emu.dir/build.make CMakeFiles/emu.dir/src/memory/bus.cpp.s
+.PHONY : src/memory/bus.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -173,6 +197,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/memory/bus.o"
+	@echo "... src/memory/bus.i"
+	@echo "... src/memory/bus.s"
 .PHONY : help
 
 

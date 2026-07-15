@@ -1,6 +1,6 @@
 #include <array>
-#include "bus.h"
-#include "types.h"
+#include "memory/bus.h"
+#include "utils/types.h"
 
 byte Bus::read(word endereco)
 {
