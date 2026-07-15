@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/hiagocavalcante/gameboy-emulator/main.cpp" "CMakeFiles/emu.dir/main.cpp.o" "gcc" "CMakeFiles/emu.dir/main.cpp.o.d"
+  "/home/hiagocavalcante/gameboy-emulator/src/cartridge/cartridge.cpp" "CMakeFiles/emu.dir/src/cartridge/cartridge.cpp.o" "gcc" "CMakeFiles/emu.dir/src/cartridge/cartridge.cpp.o.d"
   "/home/hiagocavalcante/gameboy-emulator/src/memory/bus.cpp" "CMakeFiles/emu.dir/src/memory/bus.cpp.o" "gcc" "CMakeFiles/emu.dir/src/memory/bus.cpp.o.d"
   "" "emu" "gcc" "CMakeFiles/emu.dir/link.d"
   )

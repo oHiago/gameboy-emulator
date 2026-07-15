@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/emu.dir/link.d"
   "CMakeFiles/emu.dir/main.cpp.o"
   "CMakeFiles/emu.dir/main.cpp.o.d"
+  "CMakeFiles/emu.dir/src/cartridge/cartridge.cpp.o"
+  "CMakeFiles/emu.dir/src/cartridge/cartridge.cpp.o.d"
   "CMakeFiles/emu.dir/src/memory/bus.cpp.o"
   "CMakeFiles/emu.dir/src/memory/bus.cpp.o.d"
   "emu"

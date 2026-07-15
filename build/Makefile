@@ -160,6 +160,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/emu.dir/build.make CMakeFiles/emu.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/cartridge/cartridge.o: src/cartridge/cartridge.cpp.o
+.PHONY : src/cartridge/cartridge.o
+
+# target to build an object file
+src/cartridge/cartridge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emu.dir/build.make CMakeFiles/emu.dir/src/cartridge/cartridge.cpp.o
+.PHONY : src/cartridge/cartridge.cpp.o
+
+src/cartridge/cartridge.i: src/cartridge/cartridge.cpp.i
+.PHONY : src/cartridge/cartridge.i
+
+# target to preprocess a source file
+src/cartridge/cartridge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emu.dir/build.make CMakeFiles/emu.dir/src/cartridge/cartridge.cpp.i
+.PHONY : src/cartridge/cartridge.cpp.i
+
+src/cartridge/cartridge.s: src/cartridge/cartridge.cpp.s
+.PHONY : src/cartridge/cartridge.s
+
+# target to generate assembly for a file
+src/cartridge/cartridge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emu.dir/build.make CMakeFiles/emu.dir/src/cartridge/cartridge.cpp.s
+.PHONY : src/cartridge/cartridge.cpp.s
+
 src/memory/bus.o: src/memory/bus.cpp.o
 .PHONY : src/memory/bus.o
 
@@ -197,6 +221,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/cartridge/cartridge.o"
+	@echo "... src/cartridge/cartridge.i"
+	@echo "... src/cartridge/cartridge.s"
 	@echo "... src/memory/bus.o"
 	@echo "... src/memory/bus.i"
 	@echo "... src/memory/bus.s"

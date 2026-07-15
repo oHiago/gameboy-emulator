@@ -4,6 +4,7 @@ emu: \
   /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o \
   CMakeFiles/emu.dir/main.cpp.o \
   CMakeFiles/emu.dir/src/memory/bus.cpp.o \
+  CMakeFiles/emu.dir/src/cartridge/cartridge.cpp.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
@@ -41,6 +42,8 @@ emu: \
 CMakeFiles/emu.dir/main.cpp.o:
 
 CMakeFiles/emu.dir/src/memory/bus.cpp.o:
+
+CMakeFiles/emu.dir/src/cartridge/cartridge.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so:
 
